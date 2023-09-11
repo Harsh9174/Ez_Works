@@ -15,3 +15,15 @@
 - Python 3
 - MySQL
 - The TMX file to process
+
+### Prerequisites
+#### Install Python packages using pip:-
+- xml.etree.ElementTree,
+- pandas
+- mysql.connector
+
+### Installation
+pip install xml.etree.ElementTree pandas mysql-connector-python
+
+
+
