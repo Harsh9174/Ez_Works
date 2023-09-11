@@ -24,9 +24,9 @@
 pip install xml.etree.ElementTree pandas mysql-connector-python
 
 ### Installation
-- 1. Download this repository to your local machine
-  2. Navigate to the project directory on your system using "cd"
-  3. Download the TMX file from here and save it in the project directory
+1. Download this repository to your local machine
+2. Navigate to the project directory on your system using "cd"
+3. Download the TMX file and save it in the project directory
 
 ### Usage
 
