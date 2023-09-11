@@ -29,6 +29,27 @@ pip install xml.etree.ElementTree pandas mysql-connector-python
 3. Download the TMX file and save it in the project directory
 
 ### Usage
+#### To run the data pipeline, follow these steps:-
+- Open a terminal and navigate to the project directory
+- run the main script "python Ez_Coading Assignment.py"
+##### The script will perform the following tasks:
+- Parse and structure the TMX data
+- Clean the data by removing unwanted characters and whitespace
+- Removing Duplicates
+- Load the cleaned data into the database usig SQL
+
+### Pipeline Steps
+
+- Parsing and Structuring: The TMX file is parsed using the ElementTree library to extract translation pairs between English and Arabic.
+
+- Data Cleaning: Unwanted characters and leading/trailing whitespace are removed from the English and Arabic sentences.
+
+- Database Loading: The cleaned data is loaded into a MySQL database. You can modify the database connection settings in the code if needed.
+
+### Database
+#### The cleaned data is stored in a MySQL database named 'Language'. You can access the data by running SQL queries against this database
+
+
 
 
 
