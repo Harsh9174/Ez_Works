@@ -31,7 +31,7 @@ pip install xml.etree.ElementTree pandas mysql-connector-python
 ### Usage
 #### To run the data pipeline, follow these steps:-
 - Open a terminal and navigate to the project directory
-- run the main script "python Ez_Coading Assignment.py"
+- run the main script "python Ez_Coading Assignment.py" or you can download the .ipynb file and directly run it by changing the TMX fie path
 ##### The script will perform the following tasks:
 - Parse and structure the TMX data
 - Clean the data by removing unwanted characters and whitespace
