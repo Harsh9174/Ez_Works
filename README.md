@@ -40,7 +40,7 @@ pip install xml.etree.ElementTree pandas mysql-connector-python
 
 ### Pipeline Steps
 
-- Parsing and Structuring: The TMX file is parsed using the ElementTree library to extract translation pairs between English and Arabic.
+- Parsing and Structuring: The TMX file is parsed using the Element Tree library to extract translation pairs between English and Arabic.
 
 - Data Cleaning: Unwanted characters and leading/trailing whitespace are removed from the English and Arabic sentences.
 
